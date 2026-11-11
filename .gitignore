@@ -18,3 +18,6 @@ outputs/models/
 # Kaggle and generated archives
 airbus_ship_detection_results.zip
 outputs/*.zip
+
+# Temporary Microsoft Office lock files
+~$*
