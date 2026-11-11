@@ -1,0 +1,49 @@
+{
+  "dataset": {
+    "available_images": 192556,
+    "traditional_images_loaded": 3000,
+    "traditional_train_images": 2400,
+    "traditional_test_images": 600,
+    "traditional_ship_images": 663,
+    "traditional_no_ship_images": 2337,
+    "image_size": "128x128"
+  },
+  "traditional_models": {
+    "random_forest": {
+      "accuracy": 0.8566666666666667,
+      "precision": 0.8507462686567164,
+      "recall": 0.42857142857142855,
+      "f1_score": 0.57
+    },
+    "svm": {
+      "accuracy": 0.7133333333333334,
+      "precision": 0.3673469387755102,
+      "recall": 0.40601503759398494,
+      "f1_score": 0.38571428571428573
+    },
+    "knn": {
+      "accuracy": 0.79,
+      "precision": 0.8888888888888888,
+      "recall": 0.06015037593984962,
+      "f1_score": 0.11267605633802817
+    },
+    "naive_bayes": {
+      "accuracy": 0.4766666666666667,
+      "precision": 0.2860520094562648,
+      "recall": 0.9097744360902256,
+      "f1_score": 0.4352517985611511
+    },
+    "lda": {
+      "accuracy": 0.73,
+      "precision": 0.3473684210526316,
+      "recall": 0.24812030075187969,
+      "f1_score": 0.2894736842105263
+    }
+  },
+  "cnn": {
+    "accuracy": 0.787,
+    "precision": 0.5625,
+    "recall": 0.16289592760180996,
+    "f1_score": 0.25263157894736843
+  }
+}
